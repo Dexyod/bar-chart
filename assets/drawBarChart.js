@@ -35,6 +35,7 @@ const options2 = {
   titleFontSize: "30px",
   barColor: ["#dd8cda", "#3b956f", "#6ac5d0", "#98f837"],
   legend: ["Vestibul", "Suspend", "Fusceium", "Nuseluim"],
+  tickCount: 4,
 };
 $(document).ready(drawBarChart(data2, options2, element2));
 
