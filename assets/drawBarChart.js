@@ -1,20 +1,11 @@
-const data = [21, 24, 23, 27, 12, 16, 10, 15];
+const data = [13, 24, 23, 27, 12, 16];
 const element = "#chart1";
 const options = {
   title: "Titles Won",
   titleFontSize: "30px",
   xAxisTitle: "Teams",
   yAxisTitle: "Number of Titles Won",
-  xAxisLabels: [
-    "Cubs",
-    "Bears",
-    "Lions",
-    "Tigers",
-    "Giraffes",
-    "Monkeys",
-    "Ostrichs",
-    "Badgers",
-  ],
+  xAxisLabels: ["Cubs", "Bears", "Lions", "Tigers", "Birds", "Dogs"],
 };
 $(document).ready(drawBarChart(data, options, element));
 
@@ -29,7 +20,7 @@ const options2 = {
   title: "Lorem Ipsum",
   xAxisTitle: "Dolor",
   yAxisTitle: "Consectetur Adipiscing Elit",
-  xAxisLabels: ["Nam", "Curabitur", "Proin", "Quisque", "Sed", "Phasellus"],
+  xAxisLabels: ["Nam", "Curitur", "Proin", "Quisque", "Sed", "Phellus"],
   titleColor: "#bada55",
   titleFont: "georgia",
   titleFontSize: "30px",
@@ -63,12 +54,12 @@ const options3 = {
   valuePosition: "flex-end",
   barColor: ["#480355", "#9448BC", "#7699D4", "#63B4D1", "#90FCF9"],
   labelColor: "white",
-  barSpacing: "60px",
+  barSpacing: "40px",
   xAxisLabels: ["Numbers", "Stacked", "On Numbers", "Is Great!"],
   xAxisLabelFont: "helvetica",
   xAxisLabelFontSize: "12px",
   xAxisLabelColor: "black",
-  legend: [],
+  legend: ["Numbers", "Stacked", "On Numbers", "Is Great!"],
   tickCount: 5,
 };
 
